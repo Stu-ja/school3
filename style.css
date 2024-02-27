@@ -1,0 +1,22 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/ramka1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 24px;
+    color: red;
+    
+}
+h1 span {
+    font-size: 60px;
+}
+div.center {
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+    height: 100vh;
+}
