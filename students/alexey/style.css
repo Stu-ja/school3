@@ -1,14 +1,14 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url('dd.jpg');
+    background-image: url('rom.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 h1 {
-    font-size: 50px;
-    color: #43005a; 
+    font-size: 59px;
+    color: #0b9613;
 }
 div.center {
     display: flex;
@@ -19,19 +19,17 @@ div.center {
 div.center span { font-size: 15px}
 div.center div {
     border-radius: 100px;
-    border: 15px solid #8079c7;
-    background: #a8b4dabd;
-    color: #480e99;
-    font-size: 26px;
+    border: 15px solid #0d8032;
+    background: #e7ee82bd;
+    color: #02420b;
+    font-size: 45px;
     font-weight: bold;
     font-style: italic;
-    padding: 35px;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    align-content: center;
-    align-items: center;
 }
 div.center p {
     margin: 0;
