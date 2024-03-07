@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('siren.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 50px;
+    color: #43005a; 
+}
+div.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+div.center div {
+    border-radius: 100px;
+    border: 15px solid #8d048d;
+    background: #ee82eebd;
+    color: #3c0353;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+div.center p {
+    margin: 0;
+}
+
